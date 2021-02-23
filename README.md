@@ -1,83 +1,43 @@
-WeUI 为微信 Web 服务量身设计  ![](https://travis-ci.org/weui/weui.svg?branch=master)
+WeUI - tailor-made for WeChat web service
 ====
 
-## 概述
+[![Build Status](https://travis-ci.org/Tencent/weui.svg?branch=master)](https://travis-ci.org/Tencent/weui)
+[![npm version](https://img.shields.io/npm/v/weui.svg)](https://www.npmjs.org/package/weui)
 
-WeUI是一套同微信原生视觉体验一致的基础样式库，由微信官方设计团队为微信 Web 开发量身设计，可以令用户的使用感知更加统一。包含`button`、`cell`、`dialog`、 `progress`、 `toast`、`article`、`actionsheet`、`icon`等各式元素。
+[中文版本](README_cn.md)
 
-## 使用
+## Introduction
 
-#### 方法一：
-使用`bower`进行安装
-```
-bower install --save weui
-```
+WeUI is an WeChat-like UI framework officially designed by the WeChat Design Team, tailor-made for WeChat Web development, in order to improve and standardize the experience for WeChat users. Including components such as `button`、`cell`、`dialog`、 `progress`、 `toast`、`article`、`actionsheet`、`icon`.
 
-#### 方法二：
-使用`npm`进行安装
-```
-npm install --save weui
-```
+## Documentations
 
-以上两种方法安装后，只需要在页面中引入`dist/style/weui.css`或者`dist/style/weui.min.css`其中之一即可. 例如:
+- WeUI documentation [Wiki](https://github.com/Tencent/weui/wiki)
+- WeUI design reference [weui-design](https://github.com/weui/weui-design)
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
-        <title>WeUI</title>
-        <link rel="stylesheet" href="path/to/weui/dist/style/weui.min.css"/>
-    </head>
-    <body>
-    
-    </body>
-</html>
-```
+## Mobile demo
 
-**注意：** `weui.css` 建议只用于开发阶段。
+![https://weui.io](https://cloud.githubusercontent.com/assets/4652816/15662614/178efd46-2725-11e6-8952-09d7836e968d.png)
 
-## 开发
+[https://weui.io](https://weui.io)
 
-```
-git clone https://github.com/weui/weui.git
-cd weui
-npm install -g gulp
-npm install
-npm start
-```
-运行`npm start`命令，会监听`src`目录下所有文件的变更，并且默认会在`8080`端口启动服务器，然后在浏览器打开 `http://localhost:8080/example`。
+Legacy version 1.x: [https://weui.io/1.x](https://weui.io/1.x)
 
+Legacy version 0.4.x: [https://weui.io/0.4.x](https://weui.io/0.4.x)
 
-## 手机预览
+## Development
 
-请用微信扫码
-
-![](./dist/example/snapshot/qrcode.png)
-
-[http://weui.github.io/weui/](http://weui.github.io/weui)
-
-
-## 第三方扩展
-
-- [lihongxun945/jquery-weui](http://lihongxun945.github.io/jquery-weui/components)
-- [kevyu/weui-sass](https://github.com/kevyu/weui-sass)
-- [Eric-Guo/weui-rails](https://github.com/Eric-Guo/weui-rails)(Using kevyu/weui-sass)
-- [n7best/react-weui](https://github.com/n7best/react-weui)
-- [aidenzou/vue-weui](https://github.com/aidenzou/vue-weui)
-- [adcentury/vue-weui](https://github.com/adcentury/vue-weui)
-- [ZTfer/weui-sketch](https://github.com/ZTfer/weui-sketch)
-- [i5ting/weui-practice](https://github.com/i5ting/weui-practice)
-
-## 文档
-
-WeUI 说明文档参考 [Wiki](https://github.com/weui/weui/wiki)
+- [WeUI for 小程序 (weui-wxss)](https://github.com/Tencent/weui-wxss/)
+- [WeUI for Work (企业微信版)](https://work.weixin.qq.com/api/doc#12146)
+- [weui.js](https://github.com/weui/weui.js/)
+- [react-weui](https://github.com/weui/react-weui/)
 
 ## License
+
 The MIT License(http://opensource.org/licenses/MIT)
-请自由地享受和参与开源
 
-## 贡献
+Please feel free to use and contribute to the development.
 
-如果你有好的意见或建议，欢迎给我们提issue或pull request，为提升微信web体验贡献力量
+## Contribution
+
+If you have any ideas or suggestions to improve Wechat WeUI, welcome to submit an issue/pull request.
